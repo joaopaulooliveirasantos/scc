@@ -5,7 +5,8 @@
   "main": "apiWatson.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/apiwatson.js"
+    "start": "nodemon ./src/apiwatson.js",
+    "build" : "nodemon ./src/apiwatson.js"
   },
   "author": "Joao Paulo Santos",
   "license": "ISC",
