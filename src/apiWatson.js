@@ -121,7 +121,7 @@ app.post('/api/message/', function (req, res,next) {
 });
  */
 
-app.listen(3001, function () {
+app.listen(process.env.PORTA, function () {
   console.log('servidor ouvindo porta 3001!');
 });
 
